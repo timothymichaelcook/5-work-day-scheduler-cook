@@ -57,3 +57,13 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.notification {
+  display: none;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.show {
+  display: block;
+}
