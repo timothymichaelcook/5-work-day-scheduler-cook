@@ -1,7 +1,7 @@
 # Code Quiz 
 
 Project Page: [Project Page](https://timothymichaelcook.github.io/4-code-quiz-cook)
-Project Repo: [Github-repo](https://github.com/timothymichaelcook/4-code-quiz-cook)
+Project Repo: [Github-repo](https://github.com/timothymichaelcook/5-work-day-scheduler-cook)
 
 
 ## Description
@@ -11,9 +11,9 @@ The focus of this project was to create an application that displayed a timed qu
 ## User Story
 
 ```
-- AS A teacher
-- I WANT to have quiz on computer programming fundamentals
-- SO THAT my students are knowledgeable about computer programming
+- AS A employee with a busy schedule
+- I WANT to add important events to a daily planner
+- SO THAT I can manage my time effectively
 ```
 
 ## Installation
@@ -23,7 +23,6 @@ N/A
 ## Usage
 
 Users click the "Start Quiz" button which will redirect to a new page with a running timer and a container for displayed questions. Users click their answer or best guess which is then returned with a result. Users finally have the ability to save their scores at the end of every quiz as well as clearing all results as well.
-
 
 ## Credits
 
