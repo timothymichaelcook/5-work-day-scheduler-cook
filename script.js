@@ -33,8 +33,19 @@ $(document).ready(function() {
   hourUpdater();
 
   setInterval(hourUpdater, 15000);
-  
-    //Conditional statement checking hour
+
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-10 .description').val(localStorage.getItem('hour-10'));
+  $('#hour-11 .description').val(localStorage.getItem('hour-11'));
+  $('#hour-12 .description').val(localStorage.getItem('hour-12'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+  $('#hour-9 .description').val(localStorage.getItem('hour-9'));
+
 
     
     
