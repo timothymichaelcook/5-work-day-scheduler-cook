@@ -6,7 +6,7 @@ $(document).ready(function() {
     localStorage.setItem(time, value);
     $('notification').addClass('show');
     setTimeout(function() {
-      $('.notification').removeClass('show')
+      $('.notification').removeClass('show');
     }, 5000);
   });
 
@@ -26,7 +26,7 @@ $(document).ready(function() {
         $(this).removeClass('present');
         $(this).addClass('future');
       }
-    });;
+    });
   }
 
   // Call hourUpdater function
@@ -45,5 +45,5 @@ $(document).ready(function() {
   $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
 
-  $('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'))
+  $('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
 });
