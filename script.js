@@ -28,6 +28,12 @@ $(document).ready(function() {
       }
     });;
   }
+
+  // Call hourUpdater function
+  hourUpdater();
+
+  setInterval(hourUpdater, 15000);
+  
     //Conditional statement checking hour
 
     
